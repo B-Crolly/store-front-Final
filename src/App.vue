@@ -55,7 +55,7 @@ export default {
         // if it is, increment the quantity
         existingCartItem.quantity += quantity
       } else {
-        // if not, find the product, and add it with quantity to the cart
+        // iff not, find the product, and add it with quantity to the cart
         const product = this.products.find(product => product.id == productId)
         this.cartItems.push({ product, quantity })
       }
@@ -109,7 +109,7 @@ export default {
 
 <style>
 body {
-  background-image: url('@/assets/algonquin.jpg');
+  background-image: url('@/assets/best-buy-background.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Keeps the background in place when scrolling */
@@ -131,7 +131,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #0a5620;
+  background-color: #0046be;
   color: #fff;
   padding: 1rem;
   margin: 0;
@@ -161,7 +161,7 @@ a {
 
 button {
   padding: 10px;
-  background-color: #005f8b;
+  background-color: #ffe000;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -216,7 +216,7 @@ button {
 }
 
 .product-controls button:hover {
-  background-color: #005f8b;
+  background-color: #ffd000;
 }
 
 .product-price {
