@@ -109,7 +109,7 @@ export default {
 
 <style>
 body {
-  background-image: url('@/assets/best-buy-background.jpg'); /* added bestbuy background test1 */
+  background-image: url('@/assets/best-buy-background.jpg'); /* added bestbuy background test2 */
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Keeps the background in place when scrolling */
